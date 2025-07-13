@@ -1,0 +1,101 @@
+/* Reset some default */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #121212;
+  font-family: 'Lato';
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+  color: #b0bec5; /* softer main text color */
+}
+
+.container {
+  background: #1f1f1f;
+  max-width: 700px;
+  width: 100%;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+/* Cyan gradient text for titles */
+h1, h2 {
+  background: linear-gradient(90deg, #00fff7, #00bcd4, #00838f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: #333333;
+  border: none;
+  color: #b0bec5;
+  padding: 12px 20px;
+  margin: 0 10px 20px 0;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3 ease;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background: linear-gradient(90deg, #00fff7, #00bcd4, #00838f);
+  color: #121212;
+}
+
+section {
+  margin-bottom: 1.8rem;
+}
+
+#transcript {
+  background-color: #263238;
+  padding: 1rem;
+  border-radius: 8px;
+  min-height: 80px;
+  white-space: pre-wrap;
+  font-size: 1.05rem;
+  color: #e0f7fa;
+}
+
+#analyses {
+  background-color: #263238;
+  padding: 1rem;
+  border-radius: 8px;
+  min-height: 150px;   
+  font-size: 1rem;
+  color: #e0f7fa;
+
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: hidden;
+}
+
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1.5rem 1.5rem;
+  }
+
+  button {
+    margin: 0 0 1rem 0;
+    width: 100%;
+  }
+}

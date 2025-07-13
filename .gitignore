@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+
+# VSCode settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python specific
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Test cache
+.pytest_cache/
+.coverage
+.tox/
+.nox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# SQLite
+*.sqlite3
+
+# Frontend build artifacts (if you ever use bundlers)
+dist/
+build/
+node_modules/
+
+# Logs
+*.log
+
+# PyCharm
+.idea/

@@ -1,55 +1,55 @@
 # flyctl launch added from .gitignore
 # Byte-compiled / optimized / DLL files
-**\__pycache__
-**\*.py[cod]
-**\*$py.class
+**/__pycache__
+**/*.py[cod]
+**/*$py.class
 
 # Virtual environment
-**\venv
-**\env
-**\ENV
-**\.venv
+**/venv
+**/env
+**/ENV
+**/.venv
 
 # Environment variables
-**\.env
+**/.env
 #.......
 # VSCode settings
-**\.vscode
+**/.vscode
 
 # OS files
-**\.DS_Store
-**\Thumbs.db
+**/.DS_Store
+**/Thumbs.db
 
 # Python specific
-**\pip-log.txt
-**\pip-delete-this-directory.txt
+**/pip-log.txt
+**/pip-delete-this-directory.txt
 
 # PyInstaller
-**\*.manifest
-**\*.spec
+**/*.manifest
+**/*.spec
 
 # Test cache
-**\.pytest_cache
-**\.coverage
-**\.tox
-**\.nox
+**/.pytest_cache
+**/.coverage
+**/.tox
+**/.nox
 
 # MyPy
-**\.mypy_cache
-**\.dmypy.json
-**\.pyre
+**/.mypy_cache
+**/.dmypy.json
+**/.pyre
 
 # SQLite
-**\*.sqlite3
+**/*.sqlite3
 
 # Frontend build artifacts (if you ever use bundlers)
-**\dist
-**\build
-**\node_modules
+**/dist
+**/build
+**/node_modules
 
 # Logs
-**\*.log
+**/*.log
 
 # PyCharm
-**\.idea
+**/.idea
 fly.toml
